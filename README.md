@@ -104,12 +104,12 @@ class AboutMe
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dev-alamin04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-alamin04&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180"/>
+  <img src="https://github-stats.as93.net/api?username=dev-alamin04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://github-stats.as93.net/api/top-langs/?username=dev-alamin04&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dev-alamin04&theme=tokyonight&hide_border=true" width="70%"/>
+  <img src="https://streak-stats.demolab.com/?user=dev-alamin04&theme=tokyonight&hide_border=true" width="70%"/>
 </div>
 
 <br/>
@@ -139,6 +139,7 @@ class AboutMe
   </picture>
 </div>
 
+> ⚙️ **Snake setup:** Add the workflow below to `.github/workflows/snake.yml` in your profile repo to activate this!
 
 ---
 
