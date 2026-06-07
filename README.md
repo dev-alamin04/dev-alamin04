@@ -124,7 +124,7 @@ class AboutMe
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dev-alamin04&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%"/>
+  <img src="https://github-trophies.vercel.app/?username=dev-alamin04&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%"/>
 </div>
 
 ---
@@ -139,7 +139,6 @@ class AboutMe
   </picture>
 </div>
 
-> ⚙️ **Snake setup:** Add the workflow below to `.github/workflows/snake.yml` in your profile repo to activate this!
 
 ---
 
