@@ -34,16 +34,17 @@ class AboutMe
 {
     public string $name     = "Alamin Khalifa";
     public string $role     = "Junior Laravel / PHP Backend Developer";
-    public string $company  = "Softvence, Dhaka, Bangladesh";
-    public string $location = "Faridpur, Dhaka, Bangladesh 🇧🇩";
+    public string $company  = "Softvence Agency (Betopia Group), Dhaka, Bangladesh";
+    public string $location = "Faridpur, Bangladesh 🇧🇩";
     public int    $projects = 9; // delivered & counting
 
     /** @var string[] */
     public array $currentlyDoing = [
-        "Building scalable REST APIs at Softvence",
+        "Building scalable REST APIs & multi-tenant platforms at Softvence",
+        "Working on real-time driver tracking & location-based systems",
         "Exploring Cybersecurity & Bug Bounty Hunting",
         "Solving HackTheBox challenges",
-        "Sharpening system design skills",
+        "Sharpening system design & deployment skills",
     ];
 
     /** @var string[] */
@@ -139,7 +140,38 @@ class AboutMe
   </picture>
 </div>
 
-> ⚙️ **Snake setup:** Add the workflow below to `.github/workflows/snake.yml` in your profile repo to activate this!
+> ⚙️ **Snake setup:** create `.github/workflows/snake.yml` in your `dev-alamin04/dev-alamin04` profile repo with the following, then run the workflow once from the Actions tab:
+>
+> ```yaml
+> name: Generate Snake Animation
+>
+> on:
+>   schedule:
+>     - cron: "0 0 * * *"
+>   workflow_dispatch:
+>   push:
+>     branches:
+>       - main
+>
+> jobs:
+>   generate:
+>     permissions:
+>       contents: write
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: Platane/snk@v3
+>         with:
+>           github_user_name: dev-alamin04
+>           outputs: |
+>             dist/github-contribution-grid-snake.svg
+>             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>       - uses: crazy-max/ghaction-github-pages@v4
+>         with:
+>           target_branch: output
+>           build_dir: dist
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+> ```
 
 ---
 
@@ -149,14 +181,16 @@ class AboutMe
 
 | Project | Type | Highlights |
 |--------|------|-----------|
-| 🔥 **ONYX** | Mobile — Three-Sided Marketplace | Automated 8%/2% lifetime commissions · Referral system · Subscription access |
-| 🚗 **HerPath** | Women-Only Ride-Sharing | Live GPS tracking · Laravel Reverb chat · Instalment payments |
-| 🤖 **AeroAISelect** | AI Recruitment Platform | Job posting · Application tracking · Email automation |
-| 🧘 **Meditation & Healing** | Wellness App | Auth · RBAC · MySQL schema · Eloquent ORM |
+| 🎯 **AeroSelect** | Multi-Tenant Recruitment Platform | Laravel Sanctum auth · React frontend · 60+ API endpoints · RBAC |
+| 🚗 **DriveTime** | Ride/Delivery Admin Dashboard | Real-time driver tracking with Pusher · Leaflet.js + ORS routing · multi-language (en/fr/de/nl) |
+| 👶 **Watch Me Grow** | Production Backend + Mobile Security | DigitalOcean/CloudPanel backend · Flutter app pentesting with Burp Suite |
+| 🏠 **Absolute Housekeeping** | Services Marketplace | Queues · real-time chat · Stripe Connect payouts |
+| 🏢 **Willmanifest** | Marketplace Platform | Nginx deployment · marketplace CRUD · admin analytics |
+| 🚕 **MRYM** (UAE) | Ride-Sharing Payments | Stripe Connect driver payouts · wallet/commission system · Haversine-based driver search |
 
 </div>
 
-> 🏆 **9+ client projects delivered** at Softvence
+> 🏆 **9+ client projects delivered** at Softvence Agency (Betopia Group)
 
 ---
 
@@ -166,14 +200,14 @@ class AboutMe
 
 | 🏅 | Achievement |
 |----|------------|
-| 🏢 | **Junior Laravel Developer @ Softvence** — Production APIs since Nov 2025 |
-| 🎓 | **Diploma in CS** — CGPA **3.80 / 4.00** · Faridpur Polytechnic Institute |
-| ⚡ | **Real-Time Systems** — WebSocket apps with Laravel Reverb + Pusher |
-| 💳 | **Payment Expert** — Stripe, RevenueCat, cart checkout in live apps |
-| 🐛 | **Bug Bounty Hunter** — Actively hunting on HackTheBox |
+| 🏢 | **Junior Laravel Developer @ Softvence Agency (Betopia Group)** — production APIs & multi-tenant platforms |
+| 🎓 | **Diploma in Computer Science** — CGPA **3.80 / 4.00** · Faridpur Polytechnic Institute |
+| ⚡ | **Real-Time Systems** — WebSocket apps with Laravel Reverb + Pusher, live location tracking |
+| 💳 | **Payment Expert** — Stripe, Stripe Connect payouts, RevenueCat |
+| 🐛 | **Bug Bounty Hunter** — actively hunting, learning on HackTheBox |
 | 🔐 | **HTB Starting Point** — Fawn · Dancing · Redeemer · Sequel · Responder · Three · Vaccine |
-| 🌐 | **Full Deploy Pipeline** — cPanel · SSH · CloudPanel · Linux |
-| 📦 | **Polymorphic Media** — Multi-image support with polymorphic Laravel relations |
+| 🌐 | **Full Deploy Pipeline** — cPanel · SSH · CloudPanel · Linux VPS management |
+| 📦 | **Polymorphic Media** — multi-image support with polymorphic Laravel relations |
 
 </div>
 
