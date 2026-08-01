@@ -1,13 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alamin%20Khalifa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Executive%20Laravel%20Developer&descAlignY=55&descSize=20" width="100%"/>
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alamin%20Khalifa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Junior%20Laravel%20%2F%20PHP%20Backend%20Developer&descAlignY=55&descSize=20" width="100%"/>
 
+<!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=650&lines=Executive+Laravel+Developer+%F0%9F%9A%80;Laravel+%2F+PHP+Specialist+%E2%9A%A1;REST+API+Architect+%F0%9F%94%97;Real-Time+App+Builder+%F0%9F%94%A5;Bug+Bounty+Hunter+%F0%9F%90%9B;10%2B+Client+Projects+Delivered+%F0%9F%8F%86;Open+to+Opportunities+%F0%9F%8C%9F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=650&lines=Backend+Developer+%F0%9F%9A%80;Laravel+%2F+PHP+Specialist+%E2%9A%A1;REST+API+Architect+%F0%9F%94%97;Real-Time+App+Builder+%F0%9F%94%A5;Bug+Bounty+Hunter+%F0%9F%90%9B;9%2B+Client+Projects+Delivered+%F0%9F%8F%86;Open+to+Opportunities+%F0%9F%8C%9F" alt="Typing SVG" />
 </a>
 
 <br/>
 
+<!-- Badges -->
 <p>
   <img src="https://komarev.com/ghpvc/?username=dev-alamin04&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
   <img src="https://img.shields.io/github/followers/dev-alamin04?label=Followers&style=social" alt="followers"/>
@@ -30,15 +33,15 @@ namespace Alamin\Profile;
 class AboutMe
 {
     public string $name     = "Alamin Khalifa";
-    public string $role     = "Executive Laravel Developer";
+    public string $role     = "Executive Laravel / PHP Backend Developer";
     public string $company  = "Softvence Agency (Betopia Group), Dhaka, Bangladesh";
     public string $location = "Faridpur, Bangladesh 🇧🇩";
     public int    $projects = 10; // delivered & counting
 
     /** @var string[] */
     public array $currentlyDoing = [
-        "Building scalable REST APIs & real-time systems at Softvence",
-        "Deploying & maintaining Laravel apps on Linux VPS (CloudPanel, cPanel, SSH)",
+        "Building scalable REST APIs & multi-tenant platforms at Softvence",
+        "Working on real-time driver tracking & location-based systems",
         "Exploring Cybersecurity & Bug Bounty Hunting",
         "Solving HackTheBox challenges",
         "Sharpening system design & deployment skills",
@@ -73,7 +76,6 @@ class AboutMe
 
 ### ⚡ Real-Time & Payments
 ![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=for-the-badge&logo=pusher&logoColor=white)
-![Laravel Reverb](https://img.shields.io/badge/Laravel%20Reverb-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![RevenueCat](https://img.shields.io/badge/RevenueCat-F04E37?style=for-the-badge&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
@@ -90,12 +92,10 @@ class AboutMe
 ![CloudPanel](https://img.shields.io/badge/CloudPanel-2C2C2C?style=for-the-badge&logoColor=white)
 ![SSH](https://img.shields.io/badge/SSH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ### 🔍 Cybersecurity
 ![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-FF4444?style=for-the-badge&logo=bugcrowd&logoColor=white)
 
 </div>
@@ -115,6 +115,7 @@ class AboutMe
 
 <br/>
 
+<!-- Activity Graph -->
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dev-alamin04&theme=tokyo-night&hide_border=true&area=true&custom_title=Alamin's%20Contribution%20Graph" width="100%"/>
 </div>
@@ -139,6 +140,39 @@ class AboutMe
   </picture>
 </div>
 
+> ⚙️ **Snake setup:** create `.github/workflows/snake.yml` in your `dev-alamin04/dev-alamin04` profile repo with the following, then run the workflow once from the Actions tab:
+>
+> ```yaml
+> name: Generate Snake Animation
+>
+> on:
+>   schedule:
+>     - cron: "0 0 * * *"
+>   workflow_dispatch:
+>   push:
+>     branches:
+>       - main
+>
+> jobs:
+>   generate:
+>     permissions:
+>       contents: write
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: Platane/snk@v3
+>         with:
+>           github_user_name: dev-alamin04
+>           outputs: |
+>             dist/github-contribution-grid-snake.svg
+>             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>       - uses: crazy-max/ghaction-github-pages@v4
+>         with:
+>           target_branch: output
+>           build_dir: dist
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+> ```
+
 ---
 
 ## 🚀 Key Projects
@@ -147,18 +181,22 @@ class AboutMe
 
 | Project | Type | Highlights |
 |--------|------|-----------|
-| 🎯 **AeroSelect** | Multi-Tenant Recruitment Platform | Laravel Sanctum · React frontend · 60+ API endpoints · RBAC |
-| 🚗 **DriveTime** | Real-Time Driver Dashboard | Pusher live tracking · Leaflet.js + ORS routing · Multi-language (en/fr/de/nl) · Google One Tap |
-| 👶 **Watch Me Grow** | Production Backend + Mobile Security | DigitalOcean/CloudPanel · Burp Suite Android pentesting · Resend API integration |
-| 🏠 **Absolute Housekeeping** | On-Demand Services Marketplace | Laravel Reverb WebSocket chat · Stripe Connect payouts · Queue workers via Supervisor |
-| 🏢 **Willmanifest** | Marketplace Platform | Nginx deployment · S3 uploads · Marketplace CRUD · Admin analytics (Chart.js) |
-| 🚕 **HerPath** | Women-Only Ride-Sharing App | GPS-based driver matching · Flexible payment plans · n8n webhook automation · Hostinger VPS |
-| 💎 **ONYX** | Three-Sided Marketplace | Agents · Influencers · Brands · 8%/2% commission logic · Subscription access control |
-| 🧘 **Meditation & Healing** | Wellness App | Laravel backend · RBAC · Eloquent ORM · MySQL schema design |
+| 🎯 **AeroAISelect** | Multi-Tenant Recruitment Platform | Laravel Sanctum auth · React frontend · 60+ API endpoints · RBAC |
+| 🚗 **DriveTime.io** | Ride/Delivery Admin Dashboard | Real-time driver tracking with Pusher · Leaflet.js + ORS routing · multi-language (en/fr/de/nl) |
+| 👶 **Watch Me Grow** | Production Backend + Mobile Security | DigitalOcean/CloudPanel backend · Flutter app pentesting with Burp Suite |
+| 🏠 **Absolute Housekeeping** | Services Marketplace | Queues · real-time chat · Stripe Connect payouts |
+| 🏢 **Willmanifest** | Marketplace Platform | Nginx deployment · marketplace CRUD · admin analytics |
+| 👩 **HerPath** | Women-Focused Platform | Docker-based n8n automation workflows on Hostinger VPS |
+| 👑 **Onyx** | Three-Sided Marketplace (Empire Management) | Debian 13 VPS · CloudPanel CE v2 · Laravel 11 · automated commission system |
+| 💇 **3PRO Salon** | Salon Management Platform | Admin dashboard · onboarding module · secret-key user creation (`3PRO-{random}-{initials}`) |
+| ✈️ **AWB** | Airway Billing System | Billing workflow for an airway freight/logistics project |
+| 🏷️ **Sticker Plan** | Sticker-Selling Platform | E-commerce project for selling stickers |
+| 🖼️ **RV Way** (team project) | Marketplace + Community | Community photo/media modules · polymorphic `CommunityMedia` table · auto-flag & report system |
+| 🚕 **MRYM** (UAE) | Ride-Sharing Payments | Stripe Connect driver payouts · wallet/commission system · Haversine-based driver search |
 
 </div>
 
-> 🏆 **10+ client projects delivered** at Softvence Agency (Betopia Group)
+> 🏆 **9+ client projects delivered**, plus ongoing bug fixes and feature work across several other team projects, at Softvence Agency (Betopia Group)
 
 ---
 
@@ -168,14 +206,13 @@ class AboutMe
 
 | 🏅 | Achievement |
 |----|------------|
-| 🏢 | **Executive Laravel Developer @ Softvence Agency (Betopia Group)** — production APIs & real-time systems |
+| 🏢 | **Executive Laravel Developer @ Softvence Agency (Betopia Group)** — production APIs & multi-tenant platforms |
 | 🎓 | **Diploma in Computer Science** — CGPA **3.80 / 4.00** · Faridpur Polytechnic Institute |
-| ⚡ | **Real-Time Systems** — WebSocket apps with Laravel Reverb + Pusher, live driver location tracking |
-| 💳 | **Payment Expert** — Stripe, Stripe Connect payouts, RevenueCat, cart-based checkout |
-| 🌐 | **Full Deploy Pipeline** — cPanel · SSH · CloudPanel · Linux VPS · GitHub Actions FTP/SFTP |
+| ⚡ | **Real-Time Systems** — WebSocket apps with Laravel Reverb + Pusher, live location tracking |
+| 💳 | **Payment Expert** — Stripe, Stripe Connect payouts, RevenueCat |
 | 🐛 | **Bug Bounty Hunter** — actively hunting, learning on HackTheBox |
 | 🔐 | **HTB Starting Point** — Fawn · Dancing · Redeemer · Sequel · Responder · Three · Vaccine |
-| 🔍 | **Mobile Security Testing** — Burp Suite · Genymotion · Kali Linux · APK analysis |
+| 🌐 | **Full Deploy Pipeline** — cPanel · SSH · CloudPanel · Linux VPS management |
 | 📦 | **Polymorphic Media** — multi-image support with polymorphic Laravel relations |
 
 </div>
