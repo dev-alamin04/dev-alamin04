@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alamin%20Khalifa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Executive%20Laravel%20%2F%20PHP%20Backend%20Developer&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alamin%20Khalifa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Junior%20Laravel%20%2F%20PHP%20Backend%20Developer&descAlignY=55&descSize=20" width="100%"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -33,10 +33,10 @@ namespace Alamin\Profile;
 class AboutMe
 {
     public string $name     = "Alamin Khalifa";
-    public string $role     = "Executive Laravel / PHP Backend Developer";
+    public string $role     = "Junior Laravel / PHP Backend Developer";
     public string $company  = "Softvence Agency (Betopia Group), Dhaka, Bangladesh";
     public string $location = "Faridpur, Bangladesh 🇧🇩";
-    public int    $projects = 10; // delivered & counting
+    public int    $projects = 9; // delivered & counting
 
     /** @var string[] */
     public array $currentlyDoing = [
@@ -181,22 +181,22 @@ class AboutMe
 
 | Project | Type | Highlights |
 |--------|------|-----------|
-| 🎯 **AeroAISelect** | Multi-Tenant Recruitment Platform | Laravel Sanctum auth · React frontend · 60+ API endpoints · RBAC |
-| 🚗 **DriveTime.io** | Ride/Delivery Admin Dashboard | Real-time driver tracking with Pusher · Leaflet.js + ORS routing · multi-language (en/fr/de/nl) |
-| 👶 **Watch Me Grow** | Production Backend + Mobile Security | DigitalOcean/CloudPanel backend · Flutter app pentesting with Burp Suite |
-| 🏠 **Absolute Housekeeping** | Services Marketplace | Queues · real-time chat · Stripe Connect payouts |
-| 🏢 **Willmanifest** | Marketplace Platform | Nginx deployment · marketplace CRUD · admin analytics |
-| 👩 **HerPath** | Women-Focused Platform | Docker-based n8n automation workflows on Hostinger VPS |
-| 👑 **Onyx** | Three-Sided Marketplace (Empire Management) | Debian 13 VPS · CloudPanel CE v2 · Laravel 11 · automated commission system |
-| 💇 **3PRO Salon** | Salon Management Platform | Admin dashboard · onboarding module · secret-key user creation (`3PRO-{random}-{initials}`) |
-| ✈️ **AWB** | Airway Billing System | Billing workflow for an airway freight/logistics project |
-| 🏷️ **Sticker Plan** | Sticker-Selling Platform | E-commerce project for selling stickers |
-| 🖼️ **RV Way** (team project) | Marketplace + Community | Community photo/media modules · polymorphic `CommunityMedia` table · auto-flag & report system |
+| 🎯 **AeroAISelect** | Multi-Tenant Recruitment Platform | Companies post jobs & hire; students/applicants apply · job scraping from other platforms · Mailgun-based Gmail-to-system email import |
+| 👩 **HerPath** | Women Driver Ride-Sharing (Web + App) | Shared API for web & mobile · Reverb real-time chat · live driver location tracking · monthly/weekly student booking · SSH-deployed VPS |
+| 🚗 **DriveTime.io** | Restaurant Driver Management | Restaurant owners schedule & track drivers · Pusher live chat · plain HTML/CSS/JS frontend calling backend APIs |
+| 🏠 **Absolute Housekeeping** | On-Demand Housekeeping Marketplace | Housekeepers post gig availability, customers book accordingly · daily & monthly booking · Reverb chat · Stripe with installments |
+| 💇 **3PRO Salon** | Salon Management Platform | Manages salon workers · onboarding & secret-key user creation · deployed via CloudWays (backend + frontend) |
+| 👑 **Onyx** | Influencer Marketing Marketplace | Brand managers hire & pay influencers · referrals · content validation · chat · mission management · PayPal integration |
+| 🏢 **Willmanifest** | Health-Tips Social Platform | Social-media-style health suggestion feed · CloudPanel VPS deployment |
+| 📚 **Watch Me Grow** | Book Library System | Admin & users upload books, users read them · donation system · Flutter app security-tested with Burp Suite |
+| ✈️ **AWB** | Airway Billing System | Form-based shipping bill creation · step-by-step approval across 5 roles · role-based access control |
+| 🏷️ **Sticker Plan** | Custom Sticker E-commerce | Admin takes size input from users, custom stickers made accordingly · payment system · shared hosting |
+| 🖼️ **RV Way** (team project) | Marketplace + Community | Community photo/media posts · child-safety system validating all media · auto-flag & report handling |
 | 🚕 **MRYM** (UAE) | Ride-Sharing Payments | Stripe Connect driver payouts · wallet/commission system · Haversine-based driver search |
 
 </div>
 
-> 🏆 **9+ client projects delivered**, plus ongoing bug fixes and feature work across several other team projects, at Softvence Agency (Betopia Group)
+> 🏆 **9+ client projects delivered**, plus ongoing bug fixes and feature work across several other team projects, at Softvence Agency (Betopia Group) — all initially deployed through the company's cPanel during development
 
 ---
 
@@ -206,7 +206,7 @@ class AboutMe
 
 | 🏅 | Achievement |
 |----|------------|
-| 🏢 | **Executive Laravel Developer @ Softvence Agency (Betopia Group)** — production APIs & multi-tenant platforms |
+| 🏢 | **Junior Laravel Developer @ Softvence Agency (Betopia Group)** — production APIs & multi-tenant platforms |
 | 🎓 | **Diploma in Computer Science** — CGPA **3.80 / 4.00** · Faridpur Polytechnic Institute |
 | ⚡ | **Real-Time Systems** — WebSocket apps with Laravel Reverb + Pusher, live location tracking |
 | 💳 | **Payment Expert** — Stripe, Stripe Connect payouts, RevenueCat |
