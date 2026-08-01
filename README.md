@@ -140,9 +140,6 @@ class AboutMe
     <img alt="github-snake" src="https://raw.githubusercontent.com/dev-alamin04/dev-alamin04/output/github-contribution-grid-snake-dark.svg"/>
   </picture>
 </div>
-
-> ⚙️ **Snake setup:** create `.github/workflows/snake.yml` in your `dev-alamin04/dev-alamin04` profile repo with the following, then run the workflow once from the Actions tab:
->
 ---
 
 ## 🚀 Key Projects
