@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alamin%20Khalifa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Junior%20Laravel%20%2F%20PHP%20Backend%20Developer&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Alamin%20Khalifa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Executive%20Laravel%20%2F%20PHP%20Backend%20Developer&descAlignY=55&descSize=20" width="100%"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -33,15 +33,16 @@ namespace Alamin\Profile;
 class AboutMe
 {
     public string $name     = "Alamin Khalifa";
-    public string $role     = "Junior Laravel / PHP Backend Developer";
+    public string $role     = "Executive Laravel / PHP Backend Developer";
     public string $company  = "Softvence Agency (Betopia Group), Dhaka, Bangladesh";
     public string $location = "Faridpur, Bangladesh 🇧🇩";
-    public int    $projects = 9; // delivered & counting
+    public string $projects = 11+; // delivered & counting
 
     /** @var string[] */
     public array $currentlyDoing = [
         "Building scalable REST APIs & multi-tenant platforms at Softvence",
         "Working on real-time driver tracking & location-based systems",
+        "Working on server deployment using VPS (CloudPanel, cPanel, SSH)",
         "Exploring Cybersecurity & Bug Bounty Hunting",
         "Solving HackTheBox challenges",
         "Sharpening system design & deployment skills",
@@ -142,37 +143,6 @@ class AboutMe
 
 > ⚙️ **Snake setup:** create `.github/workflows/snake.yml` in your `dev-alamin04/dev-alamin04` profile repo with the following, then run the workflow once from the Actions tab:
 >
-> ```yaml
-> name: Generate Snake Animation
->
-> on:
->   schedule:
->     - cron: "0 0 * * *"
->   workflow_dispatch:
->   push:
->     branches:
->       - main
->
-> jobs:
->   generate:
->     permissions:
->       contents: write
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk@v3
->         with:
->           github_user_name: dev-alamin04
->           outputs: |
->             dist/github-contribution-grid-snake.svg
->             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v4
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
-
 ---
 
 ## 🚀 Key Projects
@@ -182,11 +152,11 @@ class AboutMe
 | Project | Type | Highlights |
 |--------|------|-----------|
 | 🎯 **AeroAISelect** | Multi-Tenant Recruitment Platform | Companies post jobs & hire; students/applicants apply · job scraping from other platforms · Mailgun-based Gmail-to-system email import |
-| 👩 **HerPath** | Women Driver Ride-Sharing (Web + App) | Shared API for web & mobile · Reverb real-time chat · live driver location tracking · monthly/weekly student booking · SSH-deployed VPS |
+| 👩 **HerPath** | Women Driver Ride-Sharing (Web + App) | Shared API for web & mobile · Reverb real-time chat · live driver location tracking . Searching near driver using current location · monthly/weekly student booking · SSH-deployed VPS . Reverb setup  |
 | 🚗 **DriveTime.io** | Restaurant Driver Management | Restaurant owners schedule & track drivers · Pusher live chat · plain HTML/CSS/JS frontend calling backend APIs |
-| 🏠 **Absolute Housekeeping** | On-Demand Housekeeping Marketplace | Housekeepers post gig availability, customers book accordingly · daily & monthly booking · Reverb chat · Stripe with installments |
+| 🏠 **Absolute Housekeeping** | On-Demand Housekeeping Marketplace | Housekeepers post gig availability, customers book accordingly · daily & monthly booking · Reverb chat · Stripe with installments  · SSH-deployed VPS . Reverb setup  |
 | 💇 **3PRO Salon** | Salon Management Platform | Manages salon workers · onboarding & secret-key user creation · deployed via CloudWays (backend + frontend) |
-| 👑 **Onyx** | Influencer Marketing Marketplace | Brand managers hire & pay influencers · referrals · content validation · chat · mission management · PayPal integration |
+| 👑 **Onyx** | Influencer Marketing Marketplace | Brand managers hire & pay influencers · referrals · content validation · chat · mission management · PayPal integration · SSH-deployed VPS . Reverb setup |
 | 🏢 **Willmanifest** | Health-Tips Social Platform | Social-media-style health suggestion feed · CloudPanel VPS deployment |
 | 📚 **Watch Me Grow** | Book Library System | Admin & users upload books, users read them · donation system · Flutter app security-tested with Burp Suite |
 | ✈️ **AWB** | Airway Billing System | Form-based shipping bill creation · step-by-step approval across 5 roles · role-based access control |
@@ -196,7 +166,7 @@ class AboutMe
 
 </div>
 
-> 🏆 **9+ client projects delivered**, plus ongoing bug fixes and feature work across several other team projects, at Softvence Agency (Betopia Group) — all initially deployed through the company's cPanel during development
+> 🏆 **11+ client projects delivered**, plus ongoing bug fixes and feature work across several other team projects, at Softvence Agency (Betopia Group) — all initially deployed through the company's cPanel during development
 
 ---
 
@@ -206,7 +176,7 @@ class AboutMe
 
 | 🏅 | Achievement |
 |----|------------|
-| 🏢 | **Junior Laravel Developer @ Softvence Agency (Betopia Group)** — production APIs & multi-tenant platforms |
+| 🏢 | **promoted Junior Laravel Developer to Executive laravel developer @ Softvence Agency (Betopia Group)** — production APIs & multi-tenant platforms |
 | 🎓 | **Diploma in Computer Science** — CGPA **3.80 / 4.00** · Faridpur Polytechnic Institute |
 | ⚡ | **Real-Time Systems** — WebSocket apps with Laravel Reverb + Pusher, live location tracking |
 | 💳 | **Payment Expert** — Stripe, Stripe Connect payouts, RevenueCat |
