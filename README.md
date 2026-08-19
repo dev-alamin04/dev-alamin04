@@ -5,7 +5,7 @@
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=650&lines=Backend+Developer+%F0%9F%9A%80;Laravel+%2F+PHP+Specialist+%E2%9A%A1;REST+API+Architect+%F0%9F%94%97;Real-Time+App+Builder+%F0%9F%94%A5;Bug+Bounty+Hunter+%F0%9F%90%9B;9%2B+Client+Projects+Delivered+%F0%9F%8F%86;Open+to+Opportunities+%F0%9F%8C%9F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=650&lines=Backend+Developer+%F0%9F%9A%80;Laravel+%2F+PHP+Specialist+%E2%9A%A1;REST+API+Architect+%F0%9F%94%97;Real-Time+App+Builder+%F0%9F%94%A5;Bug+Bounty+Hunter+%F0%9F%90%9B;15%2B+Client+Projects+Delivered+%F0%9F%8F%86;Open+to+Opportunities+%F0%9F%8C%9F" alt="Typing SVG" />
 </a>
 
 <br/>
