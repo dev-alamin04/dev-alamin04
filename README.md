@@ -36,7 +36,7 @@ class AboutMe
     public string $role     = "Executive Laravel / PHP Backend Developer";
     public string $company  = "Softvence Agency (Betopia Group), Dhaka, Bangladesh";
     public string $location = "Faridpur, Bangladesh 🇧🇩";
-    public string $projects = 11+; // delivered & counting
+    public string $projects = 15+; // delivered & counting
 
     /** @var string[] */
     public array $currentlyDoing = [
